@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="TemperatureConverter.css" />
+    <script src="TemperatureConverter.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Temperature Converter</h1>
+      </div>
+      <div class="main" id="main">
+        <div id="temperatureBox">
+          <label for="celsius">Temperature in Celsius</label>
+          <input
+            type="text"
+            id="celsius"
+            placeholder="In Celsius"
+            oninput="celsiusHandler()"
+          />
+          &deg;C<br /><br />
+          <label for="fahrenheit">Temperature in Fahrenheit</label>
+          <input
+            type="text"
+            id="fahrenheit"
+            placeholder="In Fahrenheit"
+            oninput="fahrenheitHandler()"
+          />
+          &deg;F<br /><br />
+          <label for="Kelvin">Temperature in Kelvin</label>
+          <input
+            type="text"
+            id="Kelvin"
+            placeholder="In Kelvin"
+            oninput="KelvinHandler()"
+          />
+          K
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
