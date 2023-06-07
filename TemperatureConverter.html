@@ -5,6 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Temperature Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&family=Macondo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="TemperatureConverter.css" />
     <script src="TemperatureConverter.js"></script>
   </head>
@@ -15,7 +34,7 @@
       </div>
       <div class="main" id="main">
         <div id="temperatureBox">
-          <label for="celsius">Temperature in Celsius</label>
+          <label for="celsius">Temperature (Celsius)</label>
           <input
             type="text"
             id="celsius"
@@ -23,7 +42,7 @@
             oninput="celsiusHandler()"
           />
           &deg;C<br /><br />
-          <label for="fahrenheit">Temperature in Fahrenheit</label>
+          <label for="fahrenheit">Temperature (Fahrenheit)</label>
           <input
             type="text"
             id="fahrenheit"
@@ -31,7 +50,7 @@
             oninput="fahrenheitHandler()"
           />
           &deg;F<br /><br />
-          <label for="Kelvin">Temperature in Kelvin</label>
+          <label for="Kelvin">Temperature (Kelvin)</label>
           <input
             type="text"
             id="Kelvin"
@@ -42,5 +61,10 @@
         </div>
       </div>
     </div>
+    <footer class="footer-text">
+      &#169;All Rights Reserved  2023
+      <div class="github"><a href="https://github.com/arpanasinha2211"><i style="font-size:24px" class="fa">&#xf09b;</i></a></div>
+
+    </footer>
   </body>
 </html>
