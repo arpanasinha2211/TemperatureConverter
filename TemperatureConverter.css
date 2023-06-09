@@ -68,10 +68,12 @@ footer{
     left: 0;
     font-style: oblique;
     background-color: rgb(98, 126, 166);
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding: 10px;
+    color:white;
 } 
 .fa{
-    color:black;
+    color:white;
     padding-right: 20px;
 }
 /* footer #connect{
