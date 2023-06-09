@@ -13,7 +13,7 @@ function fahrenheitHandler(){
     var fah=+document.getElementById('fahrenheit').value;
     document.getElementById('celsius').value=fToC(fah);
     // console.log(fToC(fah)+273)
-    document.getElementById('Kelvin').value=+fToC(fah)+273.15;
+    document.getElementById('Kelvin').value=(+fToC(fah)+273.15).toFixed(2);
     loadImage();
 }
 function fToC(fVal){
